@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <script src="script2.js" defer></script>
+    <link rel="stylesheet" href="style2.css" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="culc">
+      <div id="head">
+        <div><p>calculator</p></div>
+      </div>
+      <div id="anser">
+        <button id="ans1"></button>
+      </div>
+      <div id="num">
+        <div id="opr">
+          <button type=" text" onclick=" oprator(`+`)">+</button>
+          <button type=" text" onclick=" oprator(`/`)">/</button>
+          <button type=" text" onclick=" oprator(`*`)">*</button>
+          <button type=" text" onclick=" oprator(`-`)">-</button>
+          <button type=" text" onclick=" anser()">=</button>
+        </div>
+        <div id="left">
+          <div id="delet">
+            <button type="text" onclick=" oprator(`%`)">%</button>
+            <button type="text" onclick="cler()">c</button>
+            <button type="text" onclick="delet()">del</button>
+          </div>
+          <div id="um1">
+            <button onclick="print(7)">7</button>
+            <button onclick="print(8)">8</button>
+            <button onclick="print(9)">9</button>
+          </div>
+          <div id="num2">
+            <button onclick="print(4)">4</button>
+            <button onclick="print(5)">5</button>
+            <button onclick="print(6)">6</button>
+          </div>
+          <div id="num3">
+            <button onclick="print(1)">1</button>
+            <button onclick="print(2)">2</button>
+            <button onclick="print(3)">3</button>
+          </div>
+          <div id="num0">
+            <button onclick="print(0)">0</button>
+            <!-- <button onclick="print('.')">.</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
